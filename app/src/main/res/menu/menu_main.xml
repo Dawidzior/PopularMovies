@@ -2,9 +2,16 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context="dawidzior.popularmovies.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/sort_by_popularity"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/sort_by_popularity_text"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sort_by_rating"
+        android:orderInCategory="101"
+        android:title="@string/sort_by_rating_text"
         app:showAsAction="never"/>
 </menu>
